@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sudo-von/webpack-experiments/issues"
   },
-  "homepage": "https://github.com/sudo-von/webpack-experiments#readme"
+  "homepage": "https://github.com/sudo-von/webpack-experiments#readme",
+  "dependencies": {
+    "webpack": "^5.11.0"
+  }
 }
