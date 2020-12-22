@@ -1,0 +1,22 @@
+{
+  "name": "webpack-experiments",
+  "version": "1.0.0",
+  "description": "Webpack experiments repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/webpack-experiments.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "von",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudo-von/webpack-experiments/issues"
+  },
+  "homepage": "https://github.com/sudo-von/webpack-experiments#readme"
+}
