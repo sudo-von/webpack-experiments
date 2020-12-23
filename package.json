@@ -4,8 +4,9 @@
   "description": "Webpack experiments repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --entry ./index.js --output-filename bundle.js --output-path ./dist --mode development",
+    "build:dev": "webpack --config ./webpack.dev.js",
+    "build:prod": "webpack --config ./webpack.prod.js"
   },
   "repository": {
     "type": "git",
