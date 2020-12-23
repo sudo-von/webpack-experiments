@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --entry ./index.js --output-filename bundle.js --output-path ./dist --mode development",
     "build:dev": "webpack --config ./webpack.dev.js",
-    "build:prod": "webpack --config ./webpack.prod.js"
+    "build:prod": "webpack --config ./webpack.prod.js",
+    "build:multi": "webpack --config ./multi-entry-points/webpack.multi.js"
   },
   "repository": {
     "type": "git",
