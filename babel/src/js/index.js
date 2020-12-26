@@ -1,10 +1,11 @@
 import '../css/index.css';
-import text from './text';
+import search from './search';
+import render from './render';
 
-text();
-
-if(module.hot){
-    module.hot.accept('./text.js', function(){
-        text();
-    })
-}
+const id = prompt('Who is that pokemon?');
+search(id)
+    .then((data) => {
+        render(data);
+    }).catch(() =>{
+        console.log('There is no pokemon')
+    });
