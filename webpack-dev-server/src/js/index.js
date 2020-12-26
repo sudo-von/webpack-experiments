@@ -1,5 +1,10 @@
 import '../css/index.css';
+import text from './text';
 
-document.body.innerHTML = 'hello-world from webpack';
+text();
 
-alert('wow');
+if(module.hot){
+    module.hot.accept('./text.js', function(){
+        text();
+    })
+}
