@@ -8,8 +8,10 @@ import stylus from '../../stylus/stylus.styl';
 function App(){
     const [loaderList, setLoaderList] = useState([])
 
-    function handleClick(){
+    async function handleClick(){
         setLoaderList(data.loaders);
+        const {alerts} = await import('./alert.js');
+        alerts('omg this is a dynamic import x)');
     }
 
     return (
