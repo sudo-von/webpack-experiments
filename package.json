@@ -15,7 +15,9 @@
     "build:react": "webpack serve --config ./react/webpack.config.js",
     "build:url-loader": "webpack serve --config ./url-loader/webpack.config.js",
     "build:prepro": "webpack serve --config ./prepro/webpack.config.js",
-    "build:prevent-duplication": "webpack --config ./prevent-duplication/webpack.config.js"
+    "build:prevent-duplication": "webpack --config ./prevent-duplication/webpack.config.js",
+    "build:dll": "webpack --config ./dll/webpack.dll.config.js",
+    "build:prevent-duplication-fast": "webpack --config ./dll/webpack.config.js"
   },
   "repository": {
     "type": "git",
